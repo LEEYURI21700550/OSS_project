@@ -92,18 +92,18 @@ void chooseGraduateSchool(School *schools, int count){
         printf("%d. %s \r\n", num,schools[1].type[num-1]);
         printf("I recommend the lab of Professor Lee Won-hyung of Handong University.\n");
 
-    } else if(!strcmp("Kyungpook National University", name)){
+    } else if(!strcmp("Kyungpook", name)){
         scanf("%d", &num);  
         printf("%d. %s \r\n", num,schools[2].type[num-1]);
         printf("I recommend the lab of Professor Lee Won-hyung of Handong University.\n");
 
-    } else if(!strcmp("Hanyang University", name)){
+    } else if(!strcmp("Hanyang", name)){
         scanf("%d", &num);  
         printf("%d. %s \r\n", num,schools[3].type[num-1]);
         printf("I recommend the lab of Professor Lee Won-hyung of Handong University.\n");
     }
 
-
+getchar();
 
 }
 
