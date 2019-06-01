@@ -46,9 +46,8 @@ int main(int argc, char **argv) {
         printf("*    4.            Search by an annual income.                 *\n");
         printf("*    5.                Search by job type.                     *\n");
         printf("*    6.               Enter my Information.                    *\n");
-        printf("*    7.               Recommended company.                     *\n");
-        printf("*    8.                 I wont't get a job.                    *\n");
-        printf("*    9.                   Quit Program                         *\n");
+        printf("*    7.                 I wont't get a job.                    *\n");
+        printf("*    8.                   Quit Program                         *\n");
         printf("*                                                              *\n");
         printf("****************************************************************\n");
         printf("your select : ");
@@ -75,12 +74,10 @@ int main(int argc, char **argv) {
             enterInfo(user,companies, companyCount);
             break;
         case 7:
-            break;
-        case 8:
             printschools(schools, schoolCount);
             chooseGraduateSchool(schools, schoolCount);
             break;
-        case 9:
+        case 8:
             printf("OK. Bye! :)\n");
             return 0;
         default:
