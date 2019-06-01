@@ -66,7 +66,7 @@ void chooseGraduateSchool(School *schools, int count){
         }
     }
     printf("\n************************************************************************\n");
- 
+    getchar();
     printf("Where do you wnat to apply? Choose the number.\n");
     if(!strcmp("HANDONG", name)){
     while(num != 4){
@@ -79,7 +79,7 @@ void chooseGraduateSchool(School *schools, int count){
             printf(" Choose again\n");
             break;
         case 4:
-            printf("Apply now \nemail: whlee@handong.edu");
+            printf("Apply now \nemail: whlee@handong.edu\n");
             break;      
         default:
             break;

@@ -156,7 +156,7 @@
             ]
         },
         {
-            "name": "Kyungpook National University",
+            "name": "Kyungpook",
             "location": "Daegu",
             "type": [
                 "Big Data",
@@ -164,7 +164,7 @@
             ]
         },
         {
-            "name": "Hanyang University",
+            "name": "Hanyang",
             "location": "Seoul",
             "type": [
                 "System design",

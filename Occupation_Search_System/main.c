@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
     printf("\nHello!! Welcome to the world of Occupation Search System.\n");
     printf("Select one of the menus below :)\n");
     
-    while(selectMenu < 9) {
+    while(selectMenu < 8) {
         Sleep(2000);
         printf("************* Occupation Search System Application *************\n");
         printf("*                                                              *\n");
