@@ -68,7 +68,7 @@ void chooseGraduateSchool(School *schools, int count){
     printf("\n************************************************************************\n");
  
     printf("Where do you wnat to apply? Choose the number.\n");
-    
+    if(!strcmp("HANDONG", name)){
     while(num != 4){
         scanf("%d", &num);
 
@@ -85,6 +85,25 @@ void chooseGraduateSchool(School *schools, int count){
             break;
         }
     }
+    }
+
+    else if(!strcmp("UNIST", name)){
+        scanf("%d", &num);  
+        printf("%d. %s \r\n", num,schools[1].type[num-1]);
+        printf("I recommend the lab of Professor Lee Won-hyung of Handong University.\n");
+
+    } else if(!strcmp("Kyungpook National University", name)){
+        scanf("%d", &num);  
+        printf("%d. %s \r\n", num,schools[2].type[num-1]);
+        printf("I recommend the lab of Professor Lee Won-hyung of Handong University.\n");
+
+    } else if(!strcmp("Hanyang University", name)){
+        scanf("%d", &num);  
+        printf("%d. %s \r\n", num,schools[3].type[num-1]);
+        printf("I recommend the lab of Professor Lee Won-hyung of Handong University.\n");
+    }
+
+
 
 }
 
