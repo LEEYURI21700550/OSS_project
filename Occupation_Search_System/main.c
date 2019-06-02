@@ -5,7 +5,6 @@
 
 int main(int argc, char **argv) {
     int filesize = 0;
-    char *fileName;
     char *doc;
     char trash;
     int bigcnt = 0; //total count including objects in value.
@@ -24,9 +23,7 @@ int main(int argc, char **argv) {
     "Web Secuity Specialist", "ADAS Developer", "ALGO Optimization Specialist"};
     int jobCount = 14;
 
-    fileName = "OSS.json";
-    doc = readfile(fileName, &filesize); // 파일 읽음
-    fileCheck(fileName, doc); // 파일 내용 없으면 에러
+    doc = readfile(argv[1], &filesize); // 파일 읽음
     json_parse(doc, filesize, &json, &bigcnt); // 파서 시작
     printResult(&json, bigcnt); // 파서 출력
     makeCompanyTokens(&json, companies, bigcnt, &companyCount);// 파서결과를 Company Array에 저장
