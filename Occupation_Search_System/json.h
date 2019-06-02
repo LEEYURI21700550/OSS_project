@@ -36,14 +36,6 @@ typedef enum {
     
 } c_size; //company size
 
-// typedef enum {
-//     Server Manager=1,
-//     MEDIUM =2,
-//     SMALL =3,
-//     STARTUP =5
-    
-// } job_positions; //job positions obviously
-
 typedef struct _Company {
     char name[30];
     c_size size;
@@ -74,7 +66,6 @@ typedef struct _User {
 } User;
 
 char *readfile(char*, int*);
-int fileCheck(char*, char*);
 void array_parse(char*, JSON*, int*, int*);
 void object_parse(char*, JSON*, int*, int*);
 void json_parse(char*, int, JSON*, int*);
@@ -92,4 +83,3 @@ void searchByJob(Company*, int, char[][40], int);
 void enterInfo(User*,Company*, int);
 bool toLower(int, char*, char*);
 void noExist();
-// void recommendations(User*);
