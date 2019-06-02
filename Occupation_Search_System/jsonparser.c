@@ -1,12 +1,5 @@
 #include "json.h"
 
-int fileCheck(char *fileName, char *doc) {
-    if (doc == NULL) {
-        printf("%s is NULL", fileName);
-        return -1;
-    }
-}
-
 char *readfile(char *filename, int *filesize) {
     FILE *fp = fopen(filename, "r");
 
