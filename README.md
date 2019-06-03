@@ -28,7 +28,9 @@
 	4. quit the program by pressing 9 or Ctrl+C.
 	
 # When to use
-	As it becomes easier to find information, the importance of classifying it is growing.
+	This program is for people who are looking for the job. 
+	As it becomes easier to find information, the importance of classifying it is growing. 
+	
 	
 	Finding job is  hard and to sorting those information is hard too. 
 	The program can help users who have trouble choosing their own jobs. 
