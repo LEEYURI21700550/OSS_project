@@ -21,8 +21,8 @@
 	
 # Run
 	1. Repeat below: 
-		$ gcc -o OSS *.c
-		$ ./OSS
+		$ gcc -o OSS.exe *.c
+		$ ./OSS.exe your_json.json
 	2. Select one of the numbers in menu
 	3. use the program
 	4. quit the program by pressing 9 or Ctrl+C.
